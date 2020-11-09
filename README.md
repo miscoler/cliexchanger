@@ -8,4 +8,10 @@ tests:
 
 usage:
    ./exchanger 12223.45 RUB USD
+   
+output:
+   12223.45 RUB equals 156.99 USD
+
+
+
   
