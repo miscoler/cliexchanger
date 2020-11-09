@@ -1,10 +1,10 @@
 
 
 build:
- go build ./cmd/main.go
+ go build -o exchanger ./cmd/main.go
  
 tests:
-   go build -o exchanger test ./...
+   go test ./...
 
 usage:
    ./exchanger 12223.45 RUB USD
